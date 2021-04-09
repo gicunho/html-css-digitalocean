@@ -15,10 +15,18 @@ body{
     display: flex;
     align-content: center;
 }
+.flex_wrap{
+    flex-wrap: wrap;
+}
 
 .padding_lr20px{
     padding: 0 20px;
 }
+
+.padding_tb20px{
+    padding: 20px 0;
+}
+
 .padding_50px{
     padding: 50px;
 }
@@ -35,6 +43,10 @@ body{
     border-radius: 5px;
 }
 
+.blue_link{
+    color: #006aff;
+    text-decoration: none;
+}
 /* Header rules */
 .desktop_nav, .media_nav{
     line-height: 70px;
@@ -154,7 +166,7 @@ body{
 }
 
 .jumbo_getstarted > p > a{
-    color: #006aff;
+    text-decoration: underline;
 }
 
 .icon i {
@@ -162,6 +174,20 @@ body{
 }
 
 /* Main Site Content rules */
+.customers{
+    background-color:#f3f5f9;
+    text-align: center;
+}
+
+.customers_title{
+    text-transform: uppercase;
+    color: #8a93aa;
+}
+
+.customers_logo img{
+    width: calc((100% - 120px) / 6);
+    margin: 0 10px;
+}
 
 /* Footer rules */
 .desktop_nav{
@@ -187,5 +213,11 @@ body{
 
     .jumbotron p{
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .customers_logo img{
+        width: calc((100% - 40px ) / 2);
     }
 }
