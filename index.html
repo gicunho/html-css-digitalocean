@@ -3,6 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;800&display=swap" rel="stylesheet">
+    <!-- /Google Fonts -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <!-- /Font Awesome -->
+
+
     <link rel="stylesheet" href="./assets/css/12-bool-framework.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +22,63 @@
 <body>
     <!-- Site Header -->
     <header>
+        <!-- Desktop Nav Menu -->
+        <nav class="container">
+            <div class="desktop_nav row d_flex">
+                <div class="nav_logo col-lg-2">
+                    <img src="./assets/img/logo.png" alt="digitalocean logo">
+                </div>
 
+                <div class="main_nav_menu col-lg-offset-1 col-lg-5">
+                    <ul>
+                        <li><a href="#">Products <span><i class="fas fa-chevron-down"></i></span></a></li>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Community <span><i class="fas fa-chevron-down"></i></span></a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </div>
+
+                <div class="right_nav_menu col-lg-4">
+                    <ul>
+                        <li><a href="#">Docs</a></li>
+                        <li><a href="#">Support <span><i class="fas fa-chevron-down"></i></span></a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a class="btn signup_btn" href="#">Sign Up</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="media_nav d_flex padding_lr30px">
+                <img src="./assets/img/logo.png" alt="">
+                <div class="icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+        <!-- /Desktop Nav Menu -->
+
+
+        <div class="jumbotron">
+            <div class="jumbotron_content container padding_lr30px">
+                <div class="row">
+                    <div class="jumbo_title text_wh col-lg-7 col-md-7 col-xs-12">
+                        <h1 class="margin_tb_20px">The simplest cloud platform for developers & teams</h1>
+                        <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+                    </div>
+
+                    <div class="jumbo_getstarted col-lg-5 col-md-5 col-xs-12 margin_tb_20px">
+                        <h3>Deploy your app in seconds.</h3>
+                        <h3>Get started now.</h3>
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <input type="password" name="password" id="password" placeholder="Password">
+                        <a class="new_account" href="#">Create your account</a>
+                        <a class="sign_in_google" href="#"><img src="./assets/img/google-icon.png" alt="">Sign up with google</a>
+                        <p>By signing up you agree to the <a href="">Terms of Service</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <!-- /Site Header -->
 
@@ -23,7 +90,7 @@
 
     <!-- Site Footer -->
     <footer>
-        
+
     </footer>
     <!-- /Site Footer -->
 

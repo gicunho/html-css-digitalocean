@@ -1,0 +1,191 @@
+/* Common rules */
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.text_db{
+    color: #031c4e;
+}
+
+.text_wh{
+    color: white;
+}
+
+.d_flex{
+    display: flex;
+    align-content: center;
+}
+
+.padding_lr20px{
+    padding: 0 20px;
+}
+.padding_50px{
+    padding: 50px;
+}
+
+.margin_tb_20px{
+    margin: 20px 0;
+}
+
+.btn{
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid #3f8fff;
+    color: #3f8fff;
+    border-radius: 5px;
+}
+
+/* Header rules */
+.desktop_nav, .media_nav{
+    line-height: 70px;
+}
+
+.nav_logo img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.desktop_nav li{
+    list-style-type: none;
+    display: inline-block;
+    color: #0c2454;
+    padding-right: 10px;
+}
+
+.right_nav_menu{
+    text-align: right;
+}
+
+
+
+.desktop_nav a{
+    text-decoration: none;
+}
+
+.media_nav img{
+    height: 40px;
+}
+
+.media_nav{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+    /* Jumbotron rules */
+.jumbotron{
+    background-image: url(../img/bg-banner-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 50px 0;
+}
+
+.jumbotron h1{
+    font-size: 3.5rem;
+}
+
+.jumbotron p {
+    font-size: 1.25rem;
+    color: #b1c5fd;
+    line-height: 2rem;
+}
+
+.jumbo_title{
+    padding-right: 50px;
+}
+
+.jumbo_getstarted{
+    background-color: white;
+    border-radius: 5px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.jumbo_getstarted h3{
+    font-size: 1.7rem;
+}
+
+.jumbo_getstarted h3:last-of-type{
+    color: #006aff;
+}
+
+.jumbo_getstarted p{
+    font-size: 0.8rem;
+    color:#031c4e;
+}
+
+.jumbo_getstarted input{
+    width: 100%;
+    padding: 15px 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 2px solid #f2f2f2;
+    font-size: 1rem;
+}
+
+.jumbo_getstarted > a{
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 0;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.new_account{
+    background-color: #579aff;
+    color: white
+}
+
+.sign_in_google{
+    position: relative;
+    color: #666666;
+    box-shadow: 2px 2px 2px lightgrey;
+}
+
+.jumbo_getstarted img {
+    height: 20px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.7;
+}
+
+.jumbo_getstarted > p > a{
+    color: #006aff;
+}
+
+.icon i {
+    color: #006aff;
+}
+
+/* Main Site Content rules */
+
+/* Footer rules */
+.desktop_nav{
+    display: none;
+}
+@media screen and (min-width: 992px) {
+    .desktop_nav{
+        display:flex;
+    }
+    .media_nav{
+        display: none!important;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .padding_lr30px{
+        padding: 0 30px;
+    }
+
+    .jumbotron h1{
+        font-size: 2.5rem;
+    }
+
+    .jumbotron p{
+        font-size: 1rem;
+    }
+}
