@@ -27,12 +27,24 @@ body{
     padding: 20px 0;
 }
 
+.padding_tb50px{
+    padding: 50px 0;
+}
+
+.padding_20px{
+    padding: 20px;
+}
+
 .padding_50px{
     padding: 50px;
 }
 
 .margin_tb_20px{
     margin: 20px 0;
+}
+
+.margin_tb_50px{
+    margin: 50px 0;
 }
 
 .btn{
@@ -47,6 +59,16 @@ body{
     color: #006aff;
     text-decoration: none;
 }
+
+h2{
+    color: #031c4e
+}
+
+h4{
+    color: #031c4e;
+    font-size: 1.3rem;
+}
+
 /* Header rules */
 .desktop_nav, .media_nav{
     line-height: 70px;
@@ -189,6 +211,28 @@ body{
     margin: 0 10px;
 }
 
+.deploy_content > h2, .deploy_content > p{
+    text-align: center;
+}
+
+.deploy_content > p{
+    font-size: 1.35rem;
+    color: #5c6a88;
+}
+
+.deploy_left{
+    border-left: 2px solid #cccccc;
+    color: #5c6a88;
+    line-height: 2.5rem;
+    text-align: left;
+    padding: 10px;
+}
+
+.deploy_left li{
+    list-style-type: none;
+}
+
+
 /* Footer rules */
 .desktop_nav{
     display: none;
@@ -205,6 +249,10 @@ body{
 @media screen and (max-width: 991px){
     .padding_lr30px{
         padding: 0 30px;
+    }
+
+    .padding_xs_tb20px{
+        padding: 20px 0;
     }
 
     .jumbotron h1{
