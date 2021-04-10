@@ -6,6 +6,9 @@ body{
 .text_db{
     color: #031c4e;
 }
+.text_grey{
+    color: #6f7b97;
+}
 
 .text_wh{
     color: white;
@@ -232,6 +235,30 @@ h4{
     list-style-type: none;
 }
 
+.developer{
+    background-color: #f3f5f9;
+    text-align: center;
+}
+
+.developer img{
+    width: 100%;
+}
+
+.developer_picture{
+    align-items: center;
+}
+
+.developer_picture i{
+    font-size: 3rem;
+}
+
+.developer_content > i {
+    color: #006aff;
+    padding: 10px 0;
+    font-size: 0.7rem;
+}
+
+
 
 /* Footer rules */
 .desktop_nav{
@@ -267,5 +294,8 @@ h4{
 @media screen and (max-width: 767px){
     .customers_logo img{
         width: calc((100% - 40px ) / 2);
+    }
+    .developer_picture i{
+        visibility: hidden;
     }
 }
