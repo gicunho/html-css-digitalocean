@@ -74,6 +74,18 @@ h4{
     font-size: 1.3rem;
 }
 
+.bg_blue{
+    background: linear-gradient(rgba(0,71,197,1), rgba(0,30,154,1));
+}
+
+.text_center{
+    text-align: center;
+}
+
+.decor_none{
+    text-decoration: none;
+}
+
 /* Header rules */
 .desktop_nav, .media_nav{
     line-height: 70px;
@@ -95,8 +107,6 @@ h4{
     text-align: right;
 }
 
-
-
 .desktop_nav a{
     text-decoration: none;
 }
@@ -109,7 +119,6 @@ h4{
     justify-content: space-between;
     align-items: center;
 }
-
 
     /* Jumbotron rules */
 .jumbotron{
@@ -270,10 +279,6 @@ h4{
     text-align: right;
 }
 
-.service{
-    background: linear-gradient(rgba(0,71,197,1), rgba(0,30,154,1));
-}
-
 .service_server{
     padding: 20px 10px;
 }
@@ -299,6 +304,7 @@ h4{
 .customers_reviews q{
     line-height: 1.5rem;
 }
+
 /* Footer rules */
 .desktop_nav{
     display: none;
