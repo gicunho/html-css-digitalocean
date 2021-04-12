@@ -306,6 +306,88 @@ h4{
 }
 
 /* Footer rules */
+footer{
+    background-color: #031c4e;
+}
+
+.social_contacts li{
+    display: inline-block;
+    font-size: 2rem;
+    margin: 20px 10px 0 0;
+}
+
+.footer_links li{
+    list-style-type: none;
+    line-height: 2rem;
+}
+
+.footer_links li a{
+    color: #6f7b97;
+    text-decoration: none;
+}
+
+/* Question Box */
+.chat_box{
+    position: absolute;
+    right: 20px;
+    bottom: 20px
+}
+
+.chat_text{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.chat_square{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: 20px;
+    right: -5px;
+    background-color: white;
+    transform: rotate(136deg);
+}
+
+.shark_box{
+    border-radius: 5px;
+    background-color: #006aff;
+    height: 80px;
+    width: 80px;
+    background-image: url(../img/shark.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    order: 1;
+}
+body{
+    position: relative;
+}
+
+.notifica{
+    height: 40px;
+    width: 40px;
+    line-height: 30px;
+    vertical-align:middle;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: red;
+    color: white;
+    border: 5px solid white
+}
+
+.shark_box img{
+    width: 100%;
+    background-color;
+}
+
 .desktop_nav{
     display: none;
 }
@@ -341,6 +423,19 @@ h4{
 
     .jumbotron p{
         font-size: 1rem;
+    }
+
+    .chat_box{
+        position: absolute;
+        bottom: 50px;
+        flex-wrap: wrap;
+        right: calc(100% - 350px);
+        width: 300px;
+    }
+
+    .shark_box{
+        order: 0;
+        margin-bottom: 20px;
     }
 }
 
