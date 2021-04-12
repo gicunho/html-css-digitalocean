@@ -259,6 +259,28 @@ h4{
     font-size: 0.7rem;
 }
 
+.server_city{
+    color:rgba(178, 194, 231, 1);
+    font-size: 1rem;
+}
+
+.server_speedtest{
+    color: rgba(0, 209, 209, 1);
+    text-align: right;
+}
+
+.service{
+    background: linear-gradient(rgba(0,71,197,1), rgba(0,30,154,1));
+}
+
+.service_server{
+    padding: 20px 10px;
+}
+
+.service_server:not(:last-child){
+    border-bottom: 1px solid white;
+}
+
 /* Footer rules */
 .desktop_nav{
     display: none;
@@ -269,6 +291,14 @@ h4{
     }
     .media_nav{
         display: none!important;
+    }
+
+    .service_left{
+        padding-right: 20px;
+    }
+    
+    .service_right{
+        padding-left: 20px;
     }
 }
 
