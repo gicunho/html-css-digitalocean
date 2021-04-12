@@ -66,6 +66,7 @@ body{
 h2{
     color: #031c4e;
     text-align: center;
+    font-size: 2rem;
 }
 
 h4{
@@ -200,7 +201,7 @@ h4{
 }
 
 /* Main Site Content rules */
-.customers{
+.customers, .review {
     background-color:#f3f5f9;
     text-align: center;
 }
@@ -245,15 +246,15 @@ h4{
     width: 100%;
 }
 
-.developer_picture{
+.developer_picture, .review_container{
     align-items: center;
 }
 
-.developer_picture i{
+.developer_picture i, .review_container i{
     font-size: 3rem;
 }
 
-.developer_content > i {
+.developer_content > i, .review_content > i {
     color: #006aff;
     padding: 10px 0;
     font-size: 0.7rem;
@@ -281,6 +282,23 @@ h4{
     border-bottom: 1px solid white;
 }
 
+.customers_reviews{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.customers_reviews img{
+    height: 50px;
+    text-align: center;
+}
+
+.customers_reviews > *{
+    display: block;
+}
+
+.customers_reviews q{
+    line-height: 1.5rem;
+}
 /* Footer rules */
 .desktop_nav{
     display: none;
@@ -324,7 +342,7 @@ h4{
     .customers_logo img{
         width: calc((100% - 40px ) / 2);
     }
-    .developer_picture i{
+    .developer_picture i, .review_container i{
         visibility: hidden;
     }
 }
